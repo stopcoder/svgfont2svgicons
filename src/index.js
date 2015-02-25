@@ -104,6 +104,7 @@ function SVGFont2SVGIcons(options) {
    xmlns:svg="http://www.w3.org/2000/svg"\
    xmlns="http://www.w3.org/2000/svg"\
    version="1.1"\
+   unicode="' + glyph.codepoint + '"\
    width="' + glyph.width + '"\
    height="' + glyph.height + '"\
    viewBox="0 0 ' + glyph.width + ' ' + glyph.height + '">\
