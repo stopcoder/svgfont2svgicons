@@ -90,6 +90,7 @@ function SVGFont2SVGIcons(options) {
         glyph.width = tag.attributes['horiz-adv-x'];
       }
       if('unicode' in tag.attributes) {
+        // convert the unicode charactor to its hex represent in string format
         glyph.codepoint = tag.attributes.unicode.charCodeAt(0).toString(16);
       }
       d = '';
